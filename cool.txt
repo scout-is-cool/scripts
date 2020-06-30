@@ -312,7 +312,7 @@ local ShootWalls = WeaponBox:AddButton("Shoot through walls", function()
 	loadstring(game:HttpGet("https://pastebin.com/raw/R0DDuQ8R", true))()
 end)
 
-local Speed = CharacterBox:AddSlider("WalkSpeed", 100, 0, function(num)
+local Speed = CharacterBox:AddSlider("WalkSpeed", 100, 16, function(num)
 	game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = num
 end)
 
